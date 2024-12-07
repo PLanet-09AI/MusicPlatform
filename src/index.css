@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-music-bar {
+  background: linear-gradient(45deg, #64FFDA, #FF5252, #64FFDA);
+  background-size: 200% 200%;
+  animation: rainbow 3s ease infinite, musicBar 1.5s ease-in-out infinite;
+}
+
+@keyframes musicBar {
+  0%, 100% { height: 20px; }
+  50% { height: 50px; }
+}
