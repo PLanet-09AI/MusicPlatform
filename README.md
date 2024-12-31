@@ -8,8 +8,8 @@ Music Discovery: Users can explore and listen to a variety of music across genre
 Open Source: MusicHub is an open-source project, making it accessible for improvements and contributions by the community.
 Tech Stack:
 Frontend: HTML, CSS, JavaScript
-Backend: Python/Flask
-Database: MongoDB
+Backend: Typscript
+Database: Firebase & Cloudinary
 Contributing:
 We encourage developers and music enthusiasts to contribute to the project. You can help by:
 
